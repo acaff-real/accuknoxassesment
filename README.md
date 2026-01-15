@@ -44,10 +44,10 @@ Each question has a dedicated URL endpoint that executes the proof and returns t
 
 | Question | Topic | Endpoint | Expected Result |
 | :--- | :--- | :--- | :--- |
-| Q1 | Signals: Sync vs Async | `http://127.0.0.1:8000/thread-proof/` | Synchronous. The View and Receiver run on the same thread. |
-| Q2 | Signals: Threading | `http://127.0.0.1:8000/question-2/` | Same Thread. The Thread IDs are identical. |
-| Q3 | Signals: Transactions | `http://127.0.0.1:8000/question-3/` | Same Transaction. The Signal's DB entry is rolled back along with the Caller's. |
-| Q4 | Python Custom Class | `http://127.0.0.1:8000/question-4/` | `Rectangle` class iterates correctly yielding `length` then `width`. |
+| Q1 | Signals: Sync vs Async | `http://localhost:8000/thread-proof/` | Synchronous. The View and Receiver run on the same thread. |
+| Q2 | Signals: Threading | `http://localhost:8000/question-2/` | Same Thread. The Thread IDs are identical. |
+| Q3 | Signals: Transactions | `http://localhost:8000/question-3/` | Same Transaction. The Signal's DB entry is rolled back along with the Caller's. |
+| Q4 | Python Custom Class | `http://localhost:8000/question-4/` | `Rectangle` class iterates correctly yielding `length` then `width`. |
 
 ## Implementation Details
 
