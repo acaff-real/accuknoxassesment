@@ -11,7 +11,7 @@ This repository contains the solutions for the AccuKnox technical assessment. Th
 
 1.  Clone the repository
     ```bash
-    git clone <YOUR_REPO_URL_HERE>
+    git clone https://github.com/acaff-real/accuknoxassesment/
     cd accuknox-django-assessment
     ```
 
